@@ -1,0 +1,47 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Arial';
+}
+
+header {
+    padding-left: 100px;
+    height: 50px;
+    background-color: rgb(34, 34, 34);
+    color: grey;
+    display: flex;
+    align-items: center;
+    font-weight: 600;
+}
+
+nav a {
+    text-decoration: none;
+    font-weight: 400;
+    margin-left: 20px;
+}
+
+nav a:visited {
+    color: grey;
+}
+
+main {
+    margin: 10px 100px;
+    border-bottom: 1px solid lightgrey;
+}
+
+h1 {
+    font-weight: 400;
+}
+
+main ul {
+    margin: 20px 0;
+    padding-left: 20px;
+}
+
+main li {
+    margin-bottom: 5px;
+}
+
+footer {
+    padding: 10px 100px;
+}
